@@ -1,3 +1,5 @@
+parpool%Comment it if you don't need parallel computing.
+
 %Read an Image
 img=imread('Image/l.bmp');
 img_size=size(img);
@@ -13,7 +15,8 @@ end
 
 %1.1 Initialization
 octaves=4;
-scales=5;
+% scales=5;
+scales=100;
 sigma=1.6;
 sigma_array=zeros(scales,1);
 DOG=cell(octaves,1);%Storing the whole DOG
@@ -27,10 +30,9 @@ for octave = 1:octaves
     %1.2.1 Generating Difference of Gaussian
     diff_pad=repmat(sampled_image,1,1,scales-1); %Storing DoG
     temp1=sampled_image; %last scale of Gaussian
-    temp2=temp1; %this scale of Gaussian
     for scale = 1:scales-1
         GFilter = fspecial('gaussian',[5 5],sigma_array(scale));
-        temp2=imfilter(temp1,GFilter,'replicate');
+        temp2=imfilter(temp1,GFilter,'replicate');%this scale of Gaussian
         diff_pad(:,:,scale)=temp2-temp1;
     end
     %1.2.2 Downsample the image by taking the average
