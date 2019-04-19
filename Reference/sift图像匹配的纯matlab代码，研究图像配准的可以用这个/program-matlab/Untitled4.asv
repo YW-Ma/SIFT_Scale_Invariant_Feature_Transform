@@ -1,0 +1,6 @@
+img1 = imread('ima1.jpg');
+
+figure(1);
+image(img1);
+colormap(gray(256));
+title('ima1.jpg');
