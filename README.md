@@ -24,4 +24,5 @@ Usage
 Results & Evaluation
 -----------
 * Honestly speaking, Affine-SIFT algorithm is much better than SIFT, since it simulates different angles of perspectives.
-* 
+* It seems that the difference between my implementation and OpenCV's implementation is fatal problem. My candidates is much sparse!
+![](https://github.com/YW-Ma/SIFT_Scale_Invariant_Feature_Transform/blob/master/multi.jpg)
