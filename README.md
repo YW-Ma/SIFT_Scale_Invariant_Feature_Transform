@@ -20,9 +20,10 @@ Usage
 * Clone
 * Adjust `main.m` to choose one-scale or multi-scale mode.
 * Run
+* Notice: This code is for reference only, because of the problem with the implementation of its `detect` section.
 
 Results & Evaluation
 -----------
 * Honestly speaking, Affine-SIFT algorithm is much better than SIFT, since it simulates different angles of perspectives.
-* It seems that the difference between my implementation and OpenCV's implementation is fatal problem. My candidates is much sparse!
+* It seems that the difference between my implementation and OpenCV's implementation is fatal problem. My candidates is much sparser!
 ![](https://github.com/YW-Ma/SIFT_Scale_Invariant_Feature_Transform/blob/master/multi.jpg)
