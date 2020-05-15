@@ -10,7 +10,7 @@ Introduction
     * [Wikipedia - Scale-invariant feature transform](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform)
     * [UCF Computer Vision Video Lectures 2012, Dr. Mubarak Shah](https://www.youtube.com/watch?v=NPcMS49V5hg)
     * [OpenCV tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_sift_intro/py_sift_intro.html)
-    * [SIFT算法的Matlab实现](https://www.sun11.me/blog/2016/sift-implementation-in-matlab/) 
+    * [SIFT-on-MATLAB](https://github.com/aminzabardast/SIFT-on-MATLAB) 
 
 Pre-requisites
 ----------
