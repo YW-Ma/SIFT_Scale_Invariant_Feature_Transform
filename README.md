@@ -1,6 +1,7 @@
 Scale-invariant feature transform
 ======
 【实际上这个MATLAB版本的代码是有问题的，还在加工中，请大家不要参考。】
+【请同学们移步[SIFT算法的Matlab实现](https://github.com/sun11/sw-sift)】
 
 Introduction
 --------
