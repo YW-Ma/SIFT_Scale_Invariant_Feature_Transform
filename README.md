@@ -1,5 +1,7 @@
 Scale-invariant feature transform
 ======
+【实际上这个MATLAB版本的代码是有问题的，还在加工中，请大家不要参考。】
+
 Introduction
 --------
 * A robust algorithm in CV to `detect` and `describe` `local features` in images.
