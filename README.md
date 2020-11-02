@@ -1,7 +1,7 @@
 Scale-invariant feature transform
 ======
-重要提示：【我发现这个代码是有问题的，还在加工中，请大家不要参考。】
-NOTICE: Unexpected behaviors are found in execution. Please do not refer to this code!!!
+* 重要提示：【我发现这个代码是有问题的，还在加工中，请大家不要参考。】
+* NOTICE: Unexpected behaviors are found in execution. Please do not refer to this code!!!
 
 Introduction
 --------
